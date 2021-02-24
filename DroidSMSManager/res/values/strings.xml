@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DroidSMSManager</string>
+    <string name="c_msg">Create Message</string>
+     <string name="Inbox_msg">Inbox Message</string>
+      <string name="Send_item_msg">Send Message</string>
+      <string name="Frd_msg">Forward Message</string>
+       <string name="View_msg">View Message</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/settingsRelative"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50sp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:visibility="invisible" >
+        </ImageView>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginTop="50sp"
+        android:text=" Wait for send message\n( 3 sec )"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </CheckBox>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox1"
+        android:layout_marginTop="25sp"
+        android:text="Time"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox1"
+        android:layout_marginTop="25sp"
+        android:layout_toRightOf="@+id/textView1"
+        android:paddingLeft="10sp"
+        android:paddingRight="20sp"
+        android:saveEnabled="false" >
+    </SeekBar>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar1"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginTop="25sp"
+        android:text=" Use Background"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </CheckBox>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="120sp"
+        android:layout_height="70sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="25sp"
+        android:background="#0165ec"
+        android:text="Save"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </Button>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="120sp"
+        android:layout_height="70sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10sp"
+        android:layout_marginRight="25sp"
+        android:background="#ff0303"
+        android:text="Discart"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </Button>
+
+</RelativeLayout>
